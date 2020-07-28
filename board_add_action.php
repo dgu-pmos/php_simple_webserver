@@ -10,7 +10,7 @@
             echo "board_title : " . $board_title . "<br>";
             echo "board_content : " . $board_content . "<br>";
             echo "board_user : " . $board_user . "<br>";
-            $conn = mysqli_connect("db-4j8qf.cdb.ntruss.com","c3e_pmos","wjstks@004","ncp");
+            $conn = mysqli_connect("db-4jbk9.cdb.ntruss.com","c3e_pmos","wjstks@004","ncp");
 	    // $conn = mysqli_connect("localhost", "root", "wjstks@004","ncp");
             if($conn) {
                 echo "연결 성공<br>";
@@ -28,7 +28,7 @@
             }
             mysqli_close($conn);
             //헤더함수를 이용하여 리스트 페이지로 리다이렉션
-            header("Location: http://101.101.217.68/board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
+            header("Location: slb-4826556.ncloudslb.com/board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
         ?>
     </body>
 </html>

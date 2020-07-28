@@ -8,7 +8,7 @@
         <?php
             $board_no = $_POST["board_no"];
             echo "board_no : " . $board_no . "<br>";
-            $conn = mysqli_connect("db-4j8qf.cdb.ntruss.com","c3e_pmos","wjstks@004","ncp");
+            $conn = mysqli_connect("db-4jbk9.cdb.ntruss.com","c3e_pmos","wjstks@004","ncp");
 	    // $conn = mysqli_connect("localhost", "root", "wjstks@004","ncp");
             if($conn) {
                 echo "연결 성공<br>";
@@ -22,7 +22,7 @@
                 echo "삭제 실패: ".mysqli_error($conn);
             }
             mysqli_close($conn);
-            header("Location: http://101.101.217.68/board_list.php");
+            header("Location: slb-4826556.ncloudslb.com/board_list.php");
         ?>
     </body>
 </html>
