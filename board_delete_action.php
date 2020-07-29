@@ -22,7 +22,7 @@
                 echo "삭제 실패: ".mysqli_error($conn);
             }
             mysqli_close($conn);
-            header("Location: slb-4841842.ncloudslb.com/board_list.php");
+            header("Location: http://slb-4841842.ncloudslb.com/board_list.php");
         ?>
     </body>
 </html>
