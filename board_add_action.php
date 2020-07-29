@@ -28,7 +28,7 @@
             }
             mysqli_close($conn);
             //헤더함수를 이용하여 리스트 페이지로 리다이렉션
-            header("Location: http://slb-4826556.ncloudslb.com/board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
+            header("Location: slb-4841842.ncloudslb.com/board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
         ?>
     </body>
 </html>
